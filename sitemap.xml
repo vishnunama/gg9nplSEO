@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- PRIMARY SEO LANDING PAGES (casino.gg9npl.com) -->
+  <!-- These pages are optimized for Google ranking -->
+  
+  <url>
+    <loc>https://casino.gg9npl.com/</loc>
+    <lastmod>2026-05-21T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://casino.gg9npl.com/assets/images/gg9_win.png</image:loc>
+      <image:title>Best Online Casino Platform in Nepal - GG9</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://casino.gg9npl.com/best-online-casino-platform-nepal</loc>
+    <lastmod>2026-05-21T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://casino.gg9npl.com/assets/images/gg9_win.png</image:loc>
+      <image:title>Best Online Casino Platform in Nepal - Real Cash Games and Slots</image:title>
+    </image:image>
+  </url>
+
+  <!-- SECONDARY PLATFORM PAGES (gg9npl.com) -->
+  <!-- These pages support the main platform and drive conversions -->
+  
+  <url>
+    <loc>https://gg9npl.com/promotion</loc>
+    <lastmod>2026-05-21T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://gg9npl.com/affiliate</loc>
+    <lastmod>2026-05-21T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://gg9npl.com/category/Slots?game=Pragmatic</loc>
+    <lastmod>2026-05-21T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://gg9npl.com/referal/MemfLQdz</loc>
+    <lastmod>2026-05-21T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+</urlset>

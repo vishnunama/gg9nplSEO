@@ -1,28 +1,6 @@
-
-# Robots.txt for GG9 Casino SEO Landing Page
-# Allow all bots to crawl the landing page
-
 User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
-Disallow: /.env
 
-# Sitemap location
 Sitemap: https://casino.gg9npl.com/sitemap.xml
-Sitemap: https://gg9npl.com/sitemap.xml
-
-# Specific bot rules
-User-agent: Googlebot
-Allow: /
-Priority: high
-
-User-agent: Bingbot
-Allow: /
-Priority: high
-
-User-agent: Baidu
-Allow: /
-
-User-agent: Yandex
-Allow: /

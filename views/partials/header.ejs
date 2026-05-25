@@ -1,0 +1,37 @@
+<!-- Header -->
+<header>
+    <div class="header-content">
+        <a href="https://gg9npl.com/" target="_blank" class="logo" title="GG9 - Best Online Casino Nepal">
+            <img src="/assets/images/logo.png" alt="GG9 Logo - Online Casino Nepal">
+        </a>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="<%= activePage === 'home' ? '#why-choose' : '/#why-choose' %>" title="Why Choose GG9">Why GG9</a></li>
+                <li><a href="<%= activePage === 'home' ? '#real-cash' : '/#real-cash' %>" title="Casino Games">Games</a></li>
+                <li><a href="<%= activePage === 'home' ? '#bonuses' : '/#bonuses' %>" title="Bonus Offers">Bonuses</a></li>
+                <li><a href="<%= activePage === 'home' ? '#faq' : '/#faq' %>" title="FAQ">FAQ</a></li>
+                <li><a href="/blog" title="Blog" <%- activePage === 'blog' ? 'style="color: var(--primary-green);"' : '' %>>Blog</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="<%= activePage === 'home' ? '#why-choose' : '/#why-choose' %>" title="Why Choose GG9">Why GG9</a>
+            <a href="<%= activePage === 'home' ? '#real-cash' : '/#real-cash' %>" title="Casino Games">Games</a>
+            <a href="<%= activePage === 'home' ? '#bonuses' : '/#bonuses' %>" title="Bonus Offers">Bonuses</a>
+            <a href="<%= activePage === 'home' ? '#faq' : '/#faq' %>" title="FAQ">FAQ</a>
+            <a href="/blog" title="Blog">Blog</a>
+        </div>
+        <button class="mobile-menu-btn" id="menuBtn" title="Toggle Navigation Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="header-buttons">
+            <a href="https://gg9npl.com/" target="_blank" class="btn btn-secondary" title="Sign in to your account">
+                <i class="fas fa-sign-in-alt"></i>
+                <span>Sign In</span>
+            </a>
+            <a href="https://gg9npl.com/" target="_blank" class="btn btn-primary" title="Register now">
+                <i class="fas fa-user-plus"></i>
+                <span>Register</span>
+            </a>
+        </div>
+    </div>
+</header>

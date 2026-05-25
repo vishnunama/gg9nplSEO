@@ -1,0 +1,16 @@
+{
+  "name": "gg9npl-seo",
+  "version": "1.0.0",
+  "description": "GG9 SEO Online Casino Platform Nepal - Node.js Express EJS Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

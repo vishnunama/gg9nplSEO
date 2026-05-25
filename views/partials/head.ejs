@@ -1,0 +1,49 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>">
+    <meta name="author" content="GG9">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<%= canonicalUrl %>">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="<%= ogType %>">
+    <meta property="og:url" content="<%= ogUrl %>">
+    <meta property="og:title" content="<%= ogTitle %>">
+    <meta property="og:description" content="<%= ogDescription %>">
+    <meta property="og:image" content="<%= ogImage %>">
+    <meta property="og:site_name" content="GG9">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="<%= twitterUrl %>">
+    <meta name="twitter:title" content="<%= twitterTitle %>">
+    <meta name="twitter:description" content="<%= twitterDescription %>">
+    <meta name="twitter:image" content="<%= twitterImage %>">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Central Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Dynamic Schemas Injection -->
+    <% if (locals.schemas && Array.isArray(schemas)) { %>
+        <% schemas.forEach(function(schema) { %>
+            <script type="application/ld+json">
+            <%- JSON.stringify(schema) %>
+            </script>
+        <% }); %>
+    <% } %>
+</head>
